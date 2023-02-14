@@ -1,140 +1,140 @@
 * {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    text-align: center;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
 }
 
 .menu {
-    display: flex;
-    gap: 30px;
-    justify-content: center;
-    list-style: none;
-    margin: 20px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  list-style: none;
+  margin: 20px;
 }
 
 .h-menu {
-    display: none;
+  display: none;
 }
 
 .body h1 {
-    color: #172B4D;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
+  color: #172b4d;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
 }
 
 .body h2 {
-    color: #36B37E;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
+  color: #36b37e;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
 }
 
 .body p {
-    color: #172B4D;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;    
+  color: #172b4d;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
 }
 
-.icon ul{
-    display: flex;
-    justify-content: center;
-    list-style: none;
+.icon ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
 }
 
 .icon a {
-    margin: 10px;
-    color: #505F79;
-    font-size: 20px;
-}
-
-.icon a:hover {
-    cursor: pointer;
-    color: blue;
+  margin: 10px;
+  color: #505f79;
+  font-size: 20px;
 }
 
 .pointer li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .pointer a {
-    color: grey;
-    border-radius: 8px;
-    font-size: 20px;
+  color: grey;
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+.icon a:hover {
+  cursor: pointer;
+  color: blue;
 }
 
 .pointer a:hover {
-    cursor: pointer;
-    color: blue;
+  cursor: pointer;
+  color: blue;
 }
 
 @media (max-width: 600px) {
-    .h-menu {
-        display: block;
-        display: flex;
-        justify-content: space-between;
-        margin-top: 10px;
-        margin-right: 10px;
-        margin-left: 10px;
-    }
+  .h-menu {
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
 
-    .main {
-        background-image: url(./Images/header-illsutration-mobile.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 730px;
-    }
+  .main {
+    background-image: url(./Images/header-illsutration-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 730px;
+  }
 
-    .menu {
-        display: none;
-    }
+  .menu {
+    display: none;
+  }
 
-    .bar {
-        width: 30px;
-        height: 4px;
-        border-radius: 3px;
-        background: black;
-        margin: 5px;
-    }
+  .bar {
+    width: 30px;
+    height: 4px;
+    border-radius: 3px;
+    background: black;
+    margin: 5px;
+  }
 
-    .body p {
-        width: 95%;
-        margin-left: 10px;
-    }
+  .body p {
+    width: 95%;
+    margin-left: 10px;
+  }
 
-    .h-menu h1 {
-        font-family: 'Inter', sans-serif;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 20px;
-        line-height: 28px;
-        color: #28352F;
-    }
+  .h-menu h1 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #28352f;
+  }
 
-    .h-menu h1:hover {
-        color: blue;
-        cursor: pointer;
-    }
-    
-    .bar:hover {
-        cursor: pointer;
-        background: blue;
-        transform: rotateX(25deg);
-    }
+  .h-menu h1:hover {
+    color: blue;
+    cursor: pointer;
+  }
 
-    .pointer {
+  .bar:hover {
+    cursor: pointer;
+    background: blue;
+    transform: rotateX(25deg);
+  }
+
+  .pointer {
     margin-top: 70px;
-    }
+  }
 
-    .line hr{
-        display: block;
-    }
+  .line hr {
+    display: block;
+  }
 }
