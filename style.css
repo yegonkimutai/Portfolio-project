@@ -262,7 +262,7 @@
   background: cyan;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 770px) {
   .h-menu {
     display: block;
     display: flex;
@@ -349,5 +349,15 @@
     background-image: url(./Images/illustration\ 1-\ about\ me-mobile.png);
     background-repeat: no-repeat;
     background-position: right 0%;
+  }
+
+  .abt-card {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    'card'
+    'card'
+    'card';
   }
 }
