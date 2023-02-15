@@ -102,12 +102,9 @@
 }
 
 .grid {
-  display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: 60% 40%;
-  grid-template-areas:
-    'grid1'
-    'grid2';
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
   margin: 30px;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
@@ -122,9 +119,10 @@
 .grid2 {
   background: #fff;
   border-radius: 10px;
+  width: 100%;
 }
 
-.grid2 h1 {
+.grid2 h2 {
   color: #3a4a42;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -345,7 +343,6 @@
       'grid'
       'grid'
       'grid';
-    height: 100%;
   }
 
   .abt-main {
