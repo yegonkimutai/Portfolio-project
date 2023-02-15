@@ -97,8 +97,8 @@
     background-image: url(./Images/header-illsutration-mobile.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    height: 730px;
+    height: 700px;
+    background-position: 100%;
   }
 
   .body h1 {
