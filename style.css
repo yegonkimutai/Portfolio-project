@@ -355,9 +355,9 @@
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: 
-    'card'
-    'card'
-    'card';
+    grid-template-areas:
+      'card'
+      'card'
+      'card';
   }
 }
