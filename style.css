@@ -19,7 +19,7 @@
 
 .body h1 {
   color: #172b4d;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -28,7 +28,7 @@
 
 .body h2 {
   color: #36b37e;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -38,7 +38,7 @@
 
 .body p {
   color: #172b4d;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -82,7 +82,7 @@
 }
 
 .header h1 {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -122,7 +122,7 @@
 
 .grid2 h2 {
   color: #3a4a42;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -142,7 +142,7 @@
   border-radius: 4px;
   padding: 5px;
   color: #3a4a42;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -150,7 +150,7 @@
 }
 
 .grid2 button {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -166,7 +166,7 @@
 
 .abt-main h3 {
   color: #172b4d;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -175,7 +175,7 @@
 
 .abt-main p {
   color: #42526e;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -189,7 +189,7 @@
   height: 50px;
   border-radius: 4px;
   background: #36b37f;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -219,7 +219,7 @@
 
 .card h1 {
   color: #344563;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -227,12 +227,18 @@
 }
 
 .card ul {
-  display: flex;
-  justify-content: center;
+  /* display: flex; */
+  /* justify-content: center; */
   list-style: none;
   flex-wrap: wrap;
   gap: 10px;
   margin-top: 40px;
+  margin-left: 40px;
+}
+
+.tech {
+  margin-left: 14px;
+  margin-bottom: 12px;
 }
 
 .card li {
@@ -240,12 +246,13 @@
   padding: 6px;
   border-radius: 4px;
   background: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
   color: #36b37e;
+  float: left;
 }
 
 .grid2 li:hover {
@@ -301,7 +308,7 @@
   }
 
   .h-menu a {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -333,14 +340,14 @@
     grid-template-columns: 100%;
     grid-template-rows: 0.1fr 0.1fr 0.1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas:
-      'header'
-      'line'
-      'grid'
-      'grid'
-      'grid'
-      'grid'
-      'grid'
-      'grid';
+      "header"
+      "line"
+      "grid"
+      "grid"
+      "grid"
+      "grid"
+      "grid"
+      "grid";
   }
 
   .abt-main {
@@ -354,8 +361,8 @@
     grid-template-columns: 100%;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas:
-      'card'
-      'card'
-      'card';
+      "card"
+      "card"
+      "card";
   }
 }
