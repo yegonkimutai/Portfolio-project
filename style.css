@@ -304,8 +304,7 @@
 
 .contact button:hover {
   cursor: pointer;
-  color: blue;
-  background: whitesmoke;
+  background: #1E488F;
 }
 
 .contact ul {
@@ -331,12 +330,12 @@
   color: #42526e;
 }
 
-.contact a:hover {
+.contact li:hover {
   cursor: pointer;
-  color: blue;
+  translate: 5px;
 }
 
-.contact p:hover {
+.contact a:hover {
   cursor: pointer;
   color: blue;
 }
@@ -358,9 +357,9 @@ hr {
   cursor: pointer;
 }
 
-.icon a:hover {
+.icon li:hover {
   cursor: pointer;
-  color: blue;
+  translate: 5px;
 }
 
 .pointer a:hover {
@@ -370,26 +369,24 @@ hr {
 
 .grid2 li:hover {
   cursor: pointer;
-  color: blue;
-  background-color: whitesmoke;
+  color: white;
+  background-color: #1E488F;
 }
 
 .grid2 button:hover {
   cursor: pointer;
-  color: blue;
-  background-color: whitesmoke;
+  background-color: #1E488F;
 }
 
 .abt-main button:hover {
   cursor: pointer;
-  color: blue;
-  background: whitesmoke;
+  background: #1E488F;
 }
 
 .card li:hover {
   cursor: pointer;
-  color: blue;
-  background: cyan;
+  color: white;
+  background: #1E488F;
 }
 
 textarea:hover {
