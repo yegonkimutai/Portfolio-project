@@ -289,7 +289,15 @@
   color: blue;
   background: cyan;
 }
-
+.contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(./Images/illustration-contact-form.png);
+  background-repeat: no-repeat;
+  background-position: right 100%;
+  height: 410px;
+}
 
 
 .contact h5 {
