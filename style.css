@@ -240,7 +240,7 @@
 }
 
 .card {
-  margin: 30px;
+  margin: 20px;
   background: #ebf0ee;
   height: 350px;
   width: 300px;
@@ -289,6 +289,7 @@
   color: blue;
   background: cyan;
 }
+
 .contact form {
   display: flex;
   flex-direction: column;
@@ -298,7 +299,6 @@
   background-position: right 100%;
   height: 410px;
 }
-
 
 .contact h5 {
   font-family: 'Inter';
@@ -394,6 +394,14 @@
 .contact p:hover {
   cursor: pointer;
   color: blue;
+}
+
+textarea:hover {
+  border: 1px solid #60C095;
+}
+
+input:hover {
+  border: 1px solid #60C095;
 }
 
 @media (max-width: 770px) {
@@ -507,12 +515,4 @@
       'card';
       margin: 40px;
   }
-}
-
-hr {
-  margin: 100px 120px 10px 121px;
-  width: 134px;
-  height: 4px;
-  background: #0d151e;
-  border-radius: 10px;
 }
