@@ -243,7 +243,6 @@
   margin: 20px;
   background: #ebf0ee;
   height: 350px;
-  width: 300px;
   border-radius: 20px;
 }
 
@@ -513,6 +512,5 @@ input:hover {
       'card'
       'card'
       'card';
-      margin: 40px;
   }
 }
