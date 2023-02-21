@@ -62,23 +62,22 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Portfolio-project] <a name="about-project"></a>
 
-**[Portfolio-project]** is a project that involves creating and styling a hello world heading.
+**[Portfolio-project]** is a project that involves creating and styling a personal portfolio according to the Figma designs provided. It also includes use of flexbox as well as CSS grid so as to organize the content on a page.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
+- Figma
+- CSS3
+- HTML-5
+- Linters
+
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+   <li><a href="https://www.w3schools.com/html/">HTML</a></li>
+    <li><a href="https://www.w3schools.com/css/">CSS</a></li>
   </ul>
 </details>
 
