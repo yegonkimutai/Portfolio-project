@@ -271,6 +271,7 @@
 }
 
 .contact ::placeholder {
+  padding: 10px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -284,6 +285,7 @@
   height: 150px;
   margin-top: 15px;
   border-radius: 5px;
+  padding: 5px;
 }
 
 .contact button {
@@ -293,8 +295,8 @@
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  width: 110px;
-  height: 35px;
+  width: 130px;
+  height: 50px;
   text-align: center;
   color: #fff;
   background: #36b37f;
@@ -305,6 +307,11 @@
 .contact button:hover {
   cursor: pointer;
   background: #1e488f;
+}
+
+.contact button:active {
+  cursor: pointer;
+  background: #0A2759;
 }
 
 .contact ul {
@@ -373,9 +380,19 @@ hr {
   background-color: #1e488f;
 }
 
+.grid2 li:active {
+  cursor: pointer;
+  background: #0A2759;
+}
+
 .grid2 button:hover {
   cursor: pointer;
   background-color: #1e488f;
+}
+
+.grid2 button:active{
+  cursor: pointer;
+  background: #0A2759;
 }
 
 .abt-main button:hover {
@@ -383,10 +400,20 @@ hr {
   background: #1e488f;
 }
 
+.abt-main button:active {
+  cursor: pointer;
+  background: #0A2759;
+}
+
 .card li:hover {
   cursor: pointer;
   color: white;
   background: #1e488f;
+}
+
+.card li:active {
+  cursor: pointer;
+  background: #0A2759;
 }
 
 textarea:hover {
