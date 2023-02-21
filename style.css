@@ -290,6 +290,104 @@
   background: cyan;
 }
 
+
+
+.contact h5 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172B4D;
+  margin: 20px;
+  text-align: center;
+}
+
+.contact input {
+  margin-top: 15px;
+  height: 40px;
+  width: 90%;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.contact ::placeholder {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: left;
+}
+
+.contact textarea {
+  width: 90%;
+  height: 150px;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+.contact button {
+  margin-top: 15px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  width: 110px;
+  height: 35px;
+  text-align: center;
+  color: #fff;
+  background: #36B37F;
+  border: 1px solid #36B37F;
+  border-radius: 5px;
+}
+
+.contact button:hover {
+  cursor: pointer;
+  color: blue;
+  background: whitesmoke;
+}
+
+.contact hr {
+  width: 150px;
+  width: 3px;
+  background: black;
+}
+
+.contact ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-top: 40px;
+  gap: 10px;
+  font-size: 20px;
+}
+
+.contact a {
+  color: grey;
+}
+
+.contact p{
+  margin-top: 10px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #42526E;
+}
+
+.contact a:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+.contact p:hover {
+  cursor: pointer;
+  color: blue;
+}
+
 @media (max-width: 770px) {
   .h-menu {
     display: block;
@@ -401,4 +499,12 @@
       'card';
       margin: 40px;
   }
+}
+
+hr {
+  margin: 100px 120px 10px 121px;
+  width: 134px;
+  height: 4px;
+  background: #0d151e;
+  border-radius: 10px;
 }
