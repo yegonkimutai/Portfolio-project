@@ -27,11 +27,6 @@
   color: #344563;
 }
 
-.menu li:hover {
-  color: blue;
-  cursor: pointer;
-}
-
 .h-menu {
   display: none;
 }
@@ -97,16 +92,6 @@
   font-size: 20px;
 }
 
-.icon a:hover {
-  cursor: pointer;
-  color: blue;
-}
-
-.pointer a:hover {
-  cursor: pointer;
-  color: blue;
-}
-
 .header h1 {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -115,15 +100,6 @@
   color: #172b4d;
   margin-top: 50px;
   justify-content: center;
-}
-
-.line hr {
-  display: none;
-  background: #36b37e;
-  width: 10%;
-  height: 5px;
-  border-radius: 24px;
-  margin-left: 45%;
 }
 
 .grid {
@@ -227,18 +203,6 @@
   color: #fff;
 }
 
-.grid2 button:hover {
-  cursor: pointer;
-  color: blue;
-  background-color: whitesmoke;
-}
-
-.abt-main button:hover {
-  cursor: pointer;
-  color: blue;
-  background: whitesmoke;
-}
-
 .card {
   margin: 20px;
   background: #ebf0ee;
@@ -277,18 +241,6 @@
   color: #36b37e;
 }
 
-.grid2 li:hover {
-  cursor: pointer;
-  color: blue;
-  background-color: whitesmoke;
-}
-
-.card li:hover {
-  cursor: pointer;
-  color: blue;
-  background: cyan;
-}
-
 .contact form {
   display: flex;
   flex-direction: column;
@@ -300,12 +252,12 @@
 }
 
 .contact h5 {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  color: #172B4D;
+  color: #172b4d;
   margin: 20px;
   text-align: center;
 }
@@ -319,7 +271,7 @@
 }
 
 .contact ::placeholder {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -336,7 +288,7 @@
 
 .contact button {
   margin-top: 15px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -345,8 +297,8 @@
   height: 35px;
   text-align: center;
   color: #fff;
-  background: #36B37F;
-  border: 1px solid #36B37F;
+  background: #36b37f;
+  border: 1px solid #36b37f;
   border-radius: 5px;
 }
 
@@ -354,12 +306,6 @@
   cursor: pointer;
   color: blue;
   background: whitesmoke;
-}
-
-.contact hr {
-  width: 150px;
-  width: 3px;
-  background: black;
 }
 
 .contact ul {
@@ -375,14 +321,14 @@
   color: grey;
 }
 
-.contact p{
+.contact p {
   margin-top: 10px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
-  color: #42526E;
+  color: #42526e;
 }
 
 .contact a:hover {
@@ -395,12 +341,63 @@
   color: blue;
 }
 
+hr {
+  margin: 100px 120px 10px 40%;
+  width: 134px;
+  height: 4px;
+  background: #0d151e;
+  border-radius: 10px;
+}
+
+.line hr {
+  display: none;
+}
+
+.menu li:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.icon a:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+.pointer a:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+.grid2 li:hover {
+  cursor: pointer;
+  color: blue;
+  background-color: whitesmoke;
+}
+
+.grid2 button:hover {
+  cursor: pointer;
+  color: blue;
+  background-color: whitesmoke;
+}
+
+.abt-main button:hover {
+  cursor: pointer;
+  color: blue;
+  background: whitesmoke;
+}
+
+.card li:hover {
+  cursor: pointer;
+  color: blue;
+  background: cyan;
+}
+
 textarea:hover {
-  border: 1px solid #60C095;
+  border: 1px solid #60c095;
 }
 
 input:hover {
-  border: 1px solid #60C095;
+  border: 1px solid #60c095;
 }
 
 @media (max-width: 770px) {
@@ -469,6 +466,11 @@ input:hover {
 
   .line hr {
     display: block;
+    background: #36b37e;
+    width: 10%;
+    height: 5px;
+    border-radius: 24px;
+    margin-left: 45%;
   }
 
   .page-1 {
@@ -484,7 +486,7 @@ input:hover {
       'grid'
       'grid'
       'grid';
-      margin: 0px;
+    margin: 0;
   }
 
   .abt-main {
