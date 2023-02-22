@@ -5,12 +5,26 @@
   text-align: center;
 }
 
+.body {
+  background-image: url(./Images/Header-llustration-desktop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1100px;
+  background-position: 70%;
+}
+
 .menu {
   display: flex;
   gap: 30px;
   justify-content: center;
   list-style: none;
   margin: 20px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: #344563;
 }
 
 .h-menu {
@@ -18,6 +32,7 @@
 }
 
 .body h1 {
+  margin-top: 100px;
   color: #172b4d;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -43,7 +58,9 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
-  margin-top: 40px;
+  margin-top: 20px;
+  width: 800px;
+  margin-left: 25%;
 }
 
 .icon {
@@ -62,6 +79,10 @@
   font-size: 20px;
 }
 
+.pointer {
+  margin-top: 50px;
+}
+
 .pointer li {
   list-style-type: none;
 }
@@ -71,16 +92,6 @@
   font-size: 20px;
 }
 
-.icon a:hover {
-  cursor: pointer;
-  color: blue;
-}
-
-.pointer a:hover {
-  cursor: pointer;
-  color: blue;
-}
-
 .header h1 {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -88,15 +99,7 @@
   font-size: 40px;
   color: #172b4d;
   margin-top: 50px;
-}
-
-.line hr {
-  display: none;
-  background: #36b37e;
-  width: 10%;
-  height: 5px;
-  border-radius: 24px;
-  margin-left: 45%;
+  justify-content: center;
 }
 
 .grid {
@@ -165,6 +168,7 @@
 }
 
 .abt-main h3 {
+  margin-top: 90px;
   color: #172b4d;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -181,6 +185,8 @@
   font-size: 20px;
   line-height: 32px;
   margin-top: 30px;
+  width: 800px;
+  margin-left: 25%;
 }
 
 .abt-main button {
@@ -197,27 +203,14 @@
   color: #fff;
 }
 
-.grid2 button:hover {
-  cursor: pointer;
-  color: blue;
-  background-color: whitesmoke;
-}
-
-.abt-main button:hover {
-  cursor: pointer;
-  color: blue;
-  background: whitesmoke;
-}
-
 .card {
-  margin: 30px;
+  margin: 20px;
   background: #ebf0ee;
   height: 350px;
-  width: 300px;
   border-radius: 20px;
 }
 
-.card h1 {
+.card h4 {
   color: #344563;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -248,16 +241,182 @@
   color: #36b37e;
 }
 
+.contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(./Images/illustration-contact-form.png);
+  background-repeat: no-repeat;
+  background-position: right 100%;
+  height: 410px;
+}
+
+.contact h5 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  margin: 20px;
+  text-align: center;
+}
+
+.contact input {
+  margin-top: 15px;
+  height: 40px;
+  width: 90%;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.contact ::placeholder {
+  padding: 10px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: left;
+}
+
+.contact textarea {
+  width: 90%;
+  height: 150px;
+  margin-top: 15px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.contact button {
+  margin-top: 15px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  width: 130px;
+  height: 50px;
+  text-align: center;
+  color: #fff;
+  background: #36b37f;
+  border: 1px solid #36b37f;
+  border-radius: 5px;
+}
+
+.contact button:hover {
+  cursor: pointer;
+}
+
+.contact button:active {
+  cursor: pointer;
+  background: #008552;
+}
+
+.contact ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-top: 40px;
+  gap: 10px;
+  font-size: 20px;
+}
+
+.contact a {
+  color: grey;
+}
+
+.contact p {
+  margin-top: 10px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #42526e;
+}
+
+.contact li:hover {
+  cursor: pointer;
+  translate: 5px;
+}
+
+.contact a:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+hr {
+  margin: 100px 120px 10px 40%;
+  width: 134px;
+  height: 4px;
+  background: #0d151e;
+  border-radius: 10px;
+}
+
+.line hr {
+  display: none;
+}
+
+.menu li:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.icon li:hover {
+  cursor: pointer;
+  translate: 5px;
+}
+
+.pointer a:hover {
+  cursor: pointer;
+  color: blue;
+}
+
 .grid2 li:hover {
   cursor: pointer;
   color: blue;
-  background-color: whitesmoke;
+}
+
+.grid2 li:active {
+  cursor: pointer;
+  background: #008552;
+}
+
+.grid2 button:hover {
+  cursor: pointer;
+}
+
+.grid2 button:active {
+  cursor: pointer;
+  background: #008552;
+}
+
+.abt-main button:hover {
+  cursor: pointer;
+}
+
+.abt-main button:active {
+  cursor: pointer;
+  background: #008552;
 }
 
 .card li:hover {
   cursor: pointer;
   color: blue;
-  background: cyan;
+}
+
+.card li:active {
+  cursor: pointer;
+  background: #008552;
+}
+
+textarea:hover {
+  border: 1px solid #60c095;
+}
+
+input:hover {
+  border: 1px solid #60c095;
 }
 
 @media (max-width: 770px) {
@@ -326,6 +485,11 @@
 
   .line hr {
     display: block;
+    background: #36b37e;
+    width: 10%;
+    height: 5px;
+    border-radius: 24px;
+    margin-left: 45%;
   }
 
   .page-1 {
@@ -341,12 +505,24 @@
       'grid'
       'grid'
       'grid';
+    margin: 0;
   }
 
   .abt-main {
     background-image: url(./Images/illustration\ 1-\ about\ me-mobile.png);
     background-repeat: no-repeat;
     background-position: right 0%;
+  }
+
+  .resume {
+    background-image: url(./Images/illustration\ 2-about\ me\ mobile.png);
+    background-repeat: no-repeat;
+    background-position: left 100%;
+  }
+
+  .abt-main p {
+    width: 95%;
+    margin-left: 10px;
   }
 
   .abt-card {
