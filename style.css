@@ -429,6 +429,8 @@
 .grid2 li:hover {
   cursor: pointer;
   color: blue;
+  background: grey;
+  transition: 2s;
 }
 
 .grid2 li:active {
