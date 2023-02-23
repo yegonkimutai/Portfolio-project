@@ -269,6 +269,7 @@
   font-size: 12px;
   line-height: 16px;
   color: #36b37e;
+  transition: .5s;
 }
 
 .contact {
@@ -459,6 +460,7 @@
 .card li:hover {
   cursor: pointer;
   color: blue;
+  transform: scale(1.2);
 }
 
 .card li:active {
