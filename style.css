@@ -147,14 +147,14 @@
   display: flex;
   list-style: none;
   justify-content: center;
-  gap: 20px;
+  gap: 2%;
 }
 
 .grid2 li {
   border: 1px solid #ebf0ee;
   background: #ebf0ee;
   border-radius: 4px;
-  padding: 5px;
+  padding: 2%;
   color: #3a4a42;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -269,6 +269,7 @@
   font-size: 12px;
   line-height: 16px;
   color: #36b37e;
+  transition: 0.5s;
 }
 
 .contact {
@@ -363,6 +364,8 @@
 
 .contact button:hover {
   cursor: pointer;
+  transform: scale(1.1);
+  transition: 2s;
 }
 
 .contact button:active {
@@ -414,6 +417,8 @@
 .menu li:hover {
   color: blue;
   cursor: pointer;
+  transform: scale(1.2);
+  transition: 2s;
 }
 
 .icon li:hover {
@@ -429,6 +434,8 @@
 .grid2 li:hover {
   cursor: pointer;
   color: blue;
+  transform: scale(1.1);
+  transition: 2s;
 }
 
 .grid2 li:active {
@@ -438,6 +445,8 @@
 
 .grid2 button:hover {
   cursor: pointer;
+  transform: scale(1.1);
+  transition: 2s;
 }
 
 .grid2 button:active {
@@ -447,6 +456,8 @@
 
 .abt-main button:hover {
   cursor: pointer;
+  transform: scale(1.1);
+  transition: 2s;
 }
 
 .abt-main button:active {
@@ -457,6 +468,7 @@
 .card li:hover {
   cursor: pointer;
   color: blue;
+  transform: scale(1.2);
 }
 
 .card li:active {
@@ -464,12 +476,19 @@
   background: #008552;
 }
 
+.description h5:hover {
+  transform: scale(1.05);
+  transition: 2s;
+}
+
 textarea:hover {
   border: 1px solid #60c095;
+  transform: scale(1.05);
 }
 
 input:hover {
   border: 1px solid #60c095;
+  transform: scale(1.05);
 }
 
 @media (max-width: 770px) {
@@ -528,12 +547,13 @@ input:hover {
   .h-menu a:hover {
     color: blue;
     cursor: pointer;
+    transform: scale(1.1);
   }
 
   .bar:hover {
     cursor: pointer;
     background: blue;
-    transform: rotateX(25deg);
+    transform: scale(1.1);
   }
 
   .line hr {
@@ -622,10 +642,12 @@ input:hover {
 
   .contact input {
     width: 90%;
+    transition: 0.4s;
   }
 
   .contact textarea {
     width: 88%;
+    transition: 0.5s;
   }
 
   .contact button {
