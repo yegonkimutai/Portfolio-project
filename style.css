@@ -269,7 +269,7 @@
   font-size: 12px;
   line-height: 16px;
   color: #36b37e;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .contact {
@@ -481,7 +481,6 @@
   transition: 2s;
 }
 
-
 textarea:hover {
   border: 1px solid #60c095;
   transform: scale(1.05);
@@ -643,12 +642,12 @@ input:hover {
 
   .contact input {
     width: 90%;
-    transition: .4s;
+    transition: 0.4s;
   }
 
   .contact textarea {
     width: 88%;
-    transition: .5s;
+    transition: 0.5s;
   }
 
   .contact button {
