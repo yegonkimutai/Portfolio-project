@@ -229,8 +229,7 @@
   display: grid;
   grid-template-columns: 23% 23% 23%;
   grid-template-rows: 1fr;
-  grid-template-areas:
-    'card card card';
+  grid-template-areas: 'card card card';
   justify-content: center;
 }
 
@@ -282,8 +281,7 @@
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 1fr;
-  grid-template-areas: 
-  'description form';
+  grid-template-areas: 'description form';
   justify-content: center;
   margin-top: 100px;
   margin-left: 100px;
@@ -297,16 +295,13 @@
 }
 
 .form {
+  display: flex;
+  flex-direction: column;
   background-image: url(./Images/contact\ form-illustratoin-3-desktop.png);
   background-repeat: no-repeat;
   background-position: right 100%;
   grid-area: form;
   margin: 0;
-}
-
-.form {
-  display: flex;
-  flex-direction: column;
 }
 
 .contact h5 {
@@ -318,7 +313,7 @@
   color: #172b4d;
   margin: 20px;
   grid-area: description;
-  margin-top: 70px;
+  margin-top: 80px;
 }
 
 .contact input {
@@ -376,7 +371,7 @@
 }
 
 .contact-footer hr {
-  background: #DFE1E6;
+  background: #dfe1e6;
 }
 
 .contact-footer ul {
@@ -599,9 +594,9 @@ input:hover {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.7fr 1fr;
-    grid-template-areas: 
-    'description'
-    'form';
+    grid-template-areas:
+      'description'
+      'form';
     justify-content: center;
     margin: 10px;
     height: 100%;
