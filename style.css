@@ -147,14 +147,14 @@
   display: flex;
   list-style: none;
   justify-content: center;
-  gap: 20px;
+  gap: 2%;
 }
 
 .grid2 li {
   border: 1px solid #ebf0ee;
   background: #ebf0ee;
   border-radius: 4px;
-  padding: 5px;
+  padding: 2%;
   color: #3a4a42;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -363,6 +363,8 @@
 
 .contact button:hover {
   cursor: pointer;
+  transform: scale(1.1);
+  transition: 2s;
 }
 
 .contact button:active {
@@ -414,6 +416,8 @@
 .menu li:hover {
   color: blue;
   cursor: pointer;
+  transform: scale(1.2);
+  transition: 2s;
 }
 
 .icon li:hover {
@@ -429,7 +433,7 @@
 .grid2 li:hover {
   cursor: pointer;
   color: blue;
-  background: grey;
+  transform: scale(1.1);
   transition: 2s;
 }
 
@@ -440,6 +444,8 @@
 
 .grid2 button:hover {
   cursor: pointer;
+  transform: scale(1.1);
+  transition: 2s;
 }
 
 .grid2 button:active {
@@ -449,6 +455,8 @@
 
 .abt-main button:hover {
   cursor: pointer;
+  transform: scale(1.1);
+  transition: 2s;
 }
 
 .abt-main button:active {
@@ -464,6 +472,11 @@
 .card li:active {
   cursor: pointer;
   background: #008552;
+}
+
+.description h5:hover {
+  transform: scale(1.05);
+  transition: 2s;
 }
 
 
@@ -533,12 +546,13 @@ input:hover {
   .h-menu a:hover {
     color: blue;
     cursor: pointer;
+    transform: scale(1.1);
   }
 
   .bar:hover {
     cursor: pointer;
     background: blue;
-    transform: rotateX(25deg);
+    transform: scale(1.1);
   }
 
   .line hr {
