@@ -466,12 +466,15 @@
   background: #008552;
 }
 
+
 textarea:hover {
   border: 1px solid #60c095;
+  transform: scale(1.05);
 }
 
 input:hover {
   border: 1px solid #60c095;
+  transform: scale(1.05);
 }
 
 @media (max-width: 770px) {
@@ -624,10 +627,12 @@ input:hover {
 
   .contact input {
     width: 90%;
+    transition: .4s;
   }
 
   .contact textarea {
     width: 88%;
+    transition: .5s;
   }
 
   .contact button {
