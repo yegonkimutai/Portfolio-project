@@ -25,15 +25,6 @@ OPTIONAL SECTIONS:
 After you're finished please remove all the comments and instructions!
 -->
 
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -62,7 +53,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Portfolio-project] <a name="about-project"></a>
 
-**[Portfolio-project]** is a project that involves creating and styling a personal portfolio according to the Figma designs provided. It also includes use of flexbox as well as CSS grid so as to organize the content on a page.
+**[Portfolio-project]** is a project that involves creating and styling a hello world heading.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -76,8 +67,14 @@ After you're finished please remove all the comments and instructions!
 <details>
   <summary>Client</summary>
   <ul>
-   <li><a href="https://www.w3schools.com/html/">HTML</a></li>
-    <li><a href="https://www.w3schools.com/css/">CSS</a></li>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://expressjs.com/">Express.js</a></li>
   </ul>
 </details>
 
@@ -87,7 +84,6 @@ After you're finished please remove all the comments and instructions!
     <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
   </ul>
 </details>
-
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
@@ -97,8 +93,6 @@ After you're finished please remove all the comments and instructions!
 - **[Use different fonts and images to decorate the pages]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
@@ -234,20 +228,6 @@ If you like this project please like and share. You can also reach out to my pla
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank the reviewers who have viewed and commented on my code.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
