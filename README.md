@@ -53,7 +53,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Portfolio-project] <a name="about-project"></a>
 
-**[Portfolio-project]** is a project that involves creating and styling a hello world heading.
+**[Portfolio-project]** is a project that involves creating and styling of a template from the figma templates provided. The project also involves making the web page responsive in all the screens using the Flexbox and the CSS grid system.
 
 ## 🛠 Built With <a name="built-with"></a>
 
