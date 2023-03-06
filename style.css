@@ -518,12 +518,8 @@ input:hover {
     display: none;
   }
 
-  .bar {
-    width: 30px;
-    height: 4px;
-    border-radius: 3px;
-    background: black;
-    margin: 5px;
+  .main-menu i {
+    font-size: 20px;
   }
 
   .body p {
@@ -544,15 +540,15 @@ input:hover {
     margin-top: 80px;
   }
 
-  .h-menu a:hover {
+  #greet:hover {
     color: blue;
     cursor: pointer;
     transform: scale(1.1);
   }
 
-  .bar:hover {
+  .main-menu i:hover {
     cursor: pointer;
-    background: blue;
+    color: blue;
     transform: scale(1.1);
   }
 
