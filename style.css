@@ -522,6 +522,8 @@ input:hover {
 
   .main-menu i {
     font-size: 20px;
+    position: absolute;
+    right: 2%;
   }
 
   .body p {
@@ -529,7 +531,7 @@ input:hover {
     margin-left: 10px;
   }
 
- .greet {
+  .greet {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -544,7 +546,7 @@ input:hover {
     display: none;
     width: 100vw;
     height: 100vh;
-    background: #E5E5E5;
+    background: #e5e5e5;
     overflow: hidden;
   }
 
@@ -601,12 +603,7 @@ input:hover {
     color: blue;
   }
 
-  .main-menu i {
-    position: absolute;
-    right: 2%;
-  }
-
-.close-btn {
+  .close-btn {
     position: absolute;
     right: 5%;
     font-size: 2rem;
@@ -617,7 +614,7 @@ input:hover {
     cursor: pointer;
     color: blue;
     transform: scale(1.1);
-  }  
+  }
 
   .line hr {
     display: block;
