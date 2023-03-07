@@ -27,7 +27,7 @@
   color: #344563;
 }
 
-.h-menu {
+.main-menu {
   display: none;
 }
 
@@ -314,7 +314,7 @@
   color: #172b4d;
   margin: 20px;
   grid-area: description;
-  margin-top: 80px;
+  margin-top: 10%;
 }
 
 .contact input {
@@ -494,12 +494,14 @@ input:hover {
 @media (max-width: 770px) {
   .h-menu {
     display: block;
-    display: flex;
-    justify-content: space-between;
     margin-top: 20px;
     margin-right: 20px;
     margin-left: 10px;
     height: 60px;
+  }
+
+  .main-menu {
+    display: block;
   }
 
   .body {
@@ -527,30 +529,95 @@ input:hover {
     margin-left: 10px;
   }
 
-  .h-menu a {
+ .greet {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 28px;
     color: #28352f;
+    position: absolute;
+    left: 2%;
+  }
+
+  .hidden-menu {
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    background: #E5E5E5;
+    overflow: hidden;
+  }
+
+  .hid-menu {
+    border: 1px solid white;
+    height: 90vh;
+    background-color: white;
+    border-radius: 0 0 20px 20px;
+  }
+
+  .hidden-menu hr {
+    margin-left: 35%;
+    width: 134px;
+    height: 4px;
+    background: #0d151e;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .hidden-cont {
+    position: absolute;
+    left: 2%;
+    top: 10%;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    list-style: none;
+  }
+
+  .hidden-cont li {
+    margin-top: 30px;
+  }
+
+  .hidden-cont a {
+    color: #28352f;
+    font-size: 32px;
   }
 
   .pointer {
     margin-top: 80px;
   }
 
-  #greet:hover {
+  .greet:hover {
     color: blue;
     cursor: pointer;
     transform: scale(1.1);
+  }
+
+  .hidden-cont a:hover {
+    cursor: pointer;
+    color: blue;
+  }
+
+  .main-menu i {
+    position: absolute;
+    right: 2%;
+  }
+
+.close-btn {
+    position: absolute;
+    right: 5%;
+    font-size: 2rem;
+    cursor: pointer;
   }
 
   .main-menu i:hover {
     cursor: pointer;
     color: blue;
     transform: scale(1.1);
-  }
+  }  
 
   .line hr {
     display: block;
@@ -672,7 +739,7 @@ input:hover {
   }
 
   .contact-footer hr {
-    margin: 100px 120px 10px 40%;
+    margin: 100px 120px 10px 35%;
     width: 134px;
     height: 4px;
     background: #0d151e;
