@@ -558,7 +558,7 @@ input:hover {
   }
 
   .hidden-menu hr {
-    margin-left: 35%;
+    margin-left: 40%;
     width: 134px;
     height: 4px;
     background: #0d151e;
@@ -569,7 +569,7 @@ input:hover {
 
   .hidden-cont {
     position: absolute;
-    left: 2%;
+    left: 7%;
     top: 10%;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -581,10 +581,11 @@ input:hover {
 
   .hidden-cont li {
     margin-top: 30px;
+    text-align: left;
   }
 
   .hidden-cont a {
-    color: #28352f;
+    color: #3A4A42;;
     font-size: 32px;
   }
 
@@ -605,9 +606,11 @@ input:hover {
 
   .close-btn {
     position: absolute;
-    right: 5%;
+    right: 10%;
+    top: 5%;
     font-size: 2rem;
     cursor: pointer;
+    color: #67798E;
   }
 
   .main-menu i:hover {
