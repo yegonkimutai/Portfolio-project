@@ -16,20 +16,29 @@
     <script src="https://kit.fontawesome.com/6d267a36ba.js" crossorigin="anonymous"></script>
     <title>Yegon's Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="portfolio.html">
 </head>
 <body>
+    <!-- Main Portfolio -->
     <section class="main">
-        <div>
             <nav>
-            <div class="h-menu">
-                <a href="">Welcome</a>
-                <div>
-                <div class="bar"></div>
-                <div class="bar"></div>
-                <div class="bar"></div>
-                </div>   
-             </div>
-            </nav>
+                <div class="main-menu">
+                <div class="h-menu">
+                    <a href="" class="greet">Welcome</a>
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="hidden-menu">
+                    <div class="hid-menu">
+                        <div class="close-btn">&times;</div>
+                        <ul class="hidden-cont">
+                        <li><a href="index.html">Portfolio</a></li>
+                        <li><a href="./html/about.html" class="h-abt">About</a></li>
+                        <li><a href="./html/contact.html" class="h-contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <hr>
+                </div>
+            </nav>   
             <div class="body">
                 <nav>
                 <br>
@@ -65,7 +74,6 @@
                 </div>
                 </div>
             </div>
-        </div>
     </section>
 
     <section>
@@ -182,6 +190,7 @@
         </div>
     </section>
 
+    <!-- About Section -->
     <section class="about">
         <div class="abt-main">
             <br>
@@ -238,6 +247,7 @@
         </div>
     </section>
 
+    <!-- Contact Section -->
     <footer class="contact">
         <div class="contact-main">
             <div class="description">
@@ -273,5 +283,7 @@
             </ul>
         </div>
     </footer>
+
+    <script src="mobile.js"></script>
 </body>
 </html>
