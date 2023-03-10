@@ -4,19 +4,18 @@ const error = document.getElementById('error-msg');
 
 form.addEventListener('submit', (event) => {
   const errArray = [];
-  
-  if(email.value === '') {
-    errArray.push('Invalid email')
-  } else if(email.value !== email.value.toLowerCase()) {
-    errArray.push('Invalid email, ensure characters are in lowerCase')
+
+  if (email.value === '') {
+    errArray.push('Invalid email');
+  } else if (email.value !== email.value.toLowerCase()) {
+    errArray.push('Invalid email, ensure characters are in lowerCase');
   } else {
     form.submit();
     form.reset();
   }
-  
-  if(errArray.length > 0) {
+
+  if (errArray.length > 0) {
     event.preventDefault();
-    error.innerHTML = errArray.join(', ')
+    error.innerHTML = errArray.join(', ');
   }
 });
-
