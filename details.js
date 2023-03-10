@@ -125,14 +125,6 @@ function popUpCard(inputs) {
     });                    
   }
 
-// const pressed = document.querySelector('.project-btn');
-
-// pressed.addEventListener('click', () => {
-//     let hide = document.querySelector('.pop-hidden')
-//     hide.classList.remove();
-    
-// })
-
 function showPopUp(button) {
     const show = document.getElementById(button.dataset.target);
     show.classList.remove('pop-hidden');
@@ -141,7 +133,6 @@ function showPopUp(button) {
     overlay.id = '_overlay';
     document.body.appendChild(overlay);
     overlay.style.display = 'block';
-    // body.classList = 'scroll-hidden';
 }
 
 function closePopUp(closeId) {

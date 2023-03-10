@@ -9,7 +9,7 @@ const error = document.getElementById('error-msg');
     if(email.value === '') {
       errArray.push('Invalid email')
     } else if(email.value !== email.value.toLowerCase()) {
-      errArray.push('Invalid email, ensure charecters are in lowerCase')
+      errArray.push('Invalid email, ensure characters are in lowerCase')
     } else {
       form.submit();
       form.reset();
@@ -21,3 +21,16 @@ const error = document.getElementById('error-msg');
     }
   })
 
+  function saveInfo () {
+    const userInfo = JSON.stringify({username:userName.value, email:email.value}); 
+    localStorage.setItem('userInfo', userInfo)
+  }
+
+  userName.addEventListener('input', saveInfo);
+  email.addEventListener('input', saveInfo);
+  
+
+  let userInfo = localStorage.getItem('userInfo');
+
+  userName.value = JSON.parse(userInfo)?.username?JSON.parse(userInfo).username:'';
+  email.value = JSON.parse(userInfo)?.email?JSON.parse(userInfo).email:'';

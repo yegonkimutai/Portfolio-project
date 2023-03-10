@@ -534,7 +534,7 @@ input:hover {
 
 .pop-bg {
   width: 100%;
-  height: 300px;
+  height: 55%;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -560,7 +560,7 @@ input:hover {
   justify-content: flex-end;
   position: absolute;
   gap: 10px;
-  top: 60%;
+  top: 65%;
   right: 3%;
 }
 
@@ -600,7 +600,7 @@ input:hover {
 }
 
 .pop-body {
-  margin-top: 10px;
+  margin-top: 20px;
   font-family: 'Inter', sans-serif;
   font-size: 16px;
   line-height: 24px;
@@ -620,7 +620,7 @@ input:hover {
   width: 100%;
   height: 100%;
   transition: 0.3s ease-in-out all;
-  backdrop-filter: blur(40px);
+  backdrop-filter: blur(50px);
   display: none;
 }
 
@@ -899,8 +899,8 @@ input:hover {
   }
 
   .pop-container {
-    width: 80%;
-    height: 85%;
+    width: 90%;
+    height: 95%;
   }
 
   .pop-bg {
