@@ -125,23 +125,7 @@ function popUpCard(inputs) {
   });
 }
 /* eslint-disable */
-function showPopUp(button) {
-  const show = document.getElementById(button.dataset.target);
-  show.classList.remove('pop-hidden');
-  const overlay = document.createElement('div');
-  overlay.classList = 'overlay';
-  overlay.id = '_overlay';
-  document.body.appendChild(overlay);
-  overlay.style.display = 'block';
-}
 
-function closePopUp(closeId) {
-  const show = document.getElementById(closeId);
-  show.classList.add('pop-hidden');
-  overlay.style.display = 'none';
-  const closePop = document.querySelector('#_overlay');
-  closePop.remove();
-}
     /* eslint-enable */
 buildCard(popUpArray);
 popUpCard(popUpArray);
