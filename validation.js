@@ -3,34 +3,33 @@ const userName = document.getElementById('username');
 const email = document.getElementById('email');
 const error = document.getElementById('error-msg');
 
-  form.addEventListener('submit', (event) => {
-    const errArray = [];
-    
-    if(email.value === '') {
-      errArray.push('Invalid email')
-    } else if(email.value !== email.value.toLowerCase()) {
-      errArray.push('Invalid email, ensure characters are in lowerCase')
-    } else {
-      form.submit();
-      form.reset();
-    }
-    
-    if(errArray.length > 0) {
-      event.preventDefault();
-      error.innerHTML = errArray.join(', ')
-    }
-  })
+form.addEventListener('submit', (event) => {
+  const errArray = [];
 
-  function saveInfo () {
-    const userInfo = JSON.stringify({username:userName.value, email:email.value}); 
-    localStorage.setItem('userInfo', userInfo)
+  if (email.value === '') {
+    errArray.push('Invalid email');
+  } else if (email.value !== email.value.toLowerCase()) {
+    errArray.push('Invalid email, ensure characters are in lowerCase');
+  } else {
+    form.submit();
+    form.reset();
   }
 
-  userName.addEventListener('input', saveInfo);
-  email.addEventListener('input', saveInfo);
-  
+  if (errArray.length > 0) {
+    event.preventDefault();
+    error.innerHTML = errArray.join(', ');
+  }
+});
 
-  let userInfo = localStorage.getItem('userInfo');
+function saveInfo() {
+  const userInfo = JSON.stringify({ username: userName.value, email: email.value });
+  localStorage.setItem('userInfo', userInfo);
+}
 
-  userName.value = JSON.parse(userInfo)?.username?JSON.parse(userInfo).username:'';
-  email.value = JSON.parse(userInfo)?.email?JSON.parse(userInfo).email:'';
+userName.addEventListener('input', saveInfo);
+email.addEventListener('input', saveInfo);
+
+const userInfo = localStorage.getItem('userInfo');
+
+userName.value = JSON.parse(userInfo)?.username ? JSON.parse(userInfo).username : '';
+email.value = JSON.parse(userInfo)?.email ? JSON.parse(userInfo).email : '';
