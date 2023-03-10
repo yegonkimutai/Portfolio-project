@@ -1,61 +1,61 @@
 const card = document.querySelector('.page-1');
 
-let popUpArray = [
-    {
-        "id": 1,
-        "name": "Project 1",
-        "description": 
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium consequatur eaque animi magni eum accusantium earum iste consequuntur illo maiores, molestiae ad quam amet vero, repudiandae similique nostrum porro doloribus modi natus et id ut voluptates odit. Consectetur voluptates minus sed, voluptatibus, cumque obcaecati vel veniam dicta vitae temporibus consequuntur?",
-        "image":"./Images/Snapshoot Portfolio desktop.png",
-        "technologies": ["Ruby on Rails", "css", "JavaScript", "Codekit", "Github", "Bootstrap", "Terminal", "Codepen"],
-        "liveLink": "See live",
-        "sourceLink": "See source"
-    }, {
-        "id": 2,
-        "name": "Project 2",
-        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium consequatur eaque animi magni eum accusantium earum iste consequuntur illo maiores, molestiae ad quam amet vero, repudiandae similique nostrum porro doloribus modi natus et id ut voluptates odit. Consectetur voluptates minus sed, voluptatibus, cumque obcaecati vel veniam dicta vitae temporibus consequuntur?",
-        "image":"./Images/Snapshoot Portfolio desktop.png",
-        "technologies": ["Ruby on Rails", "css", "JavaScript", "Codekit", "Github", "Bootstrap", "Terminal", "Codepen"],
-        "liveLink": "See live",
-        "sourceLink": "See source"
-    }, {
-        "id": 3,
-        "name": "Project 3",
-        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium consequatur eaque animi magni eum accusantium earum iste consequuntur illo maiores, molestiae ad quam amet vero, repudiandae similique nostrum porro doloribus modi natus et id ut voluptates odit. Consectetur voluptates minus sed, voluptatibus, cumque obcaecati vel veniam dicta vitae temporibus consequuntur?",
-        "image":"./Images/Snapshoot Portfolio desktop.png",
-        "technologies": ["Ruby on Rails", "css", "JavaScript", "Codekit", "Github", "Bootstrap", "Terminal", "Codepen"],
-        "liveLink": "See live",
-        "sourceLink": "See source"
-    }, {
-        "id": 4,
-        "name": "Project 4",
-        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium consequatur eaque animi magni eum accusantium earum iste consequuntur illo maiores, molestiae ad quam amet vero, repudiandae similique nostrum porro doloribus modi natus et id ut voluptates odit. Consectetur voluptates minus sed, voluptatibus, cumque obcaecati vel veniam dicta vitae temporibus consequuntur?",
-        "image":"./Images/Snapshoot Portfolio desktop.png",
-        "technologies": ["Ruby on Rails", "css", "JavaScript", "Codekit", "Github", "Bootstrap", "Terminal", "Codepen"],
-        "liveLink": "See live",
-        "sourceLink": "See source"
-    }, {
-        "id": 5,
-        "name": "Project 5",
-        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium consequatur eaque animi magni eum accusantium earum iste consequuntur illo maiores, molestiae ad quam amet vero, repudiandae similique nostrum porro doloribus modi natus et id ut voluptates odit. Consectetur voluptates minus sed, voluptatibus, cumque obcaecati vel veniam dicta vitae temporibus consequuntur?",
-        "image":"./Images/Snapshoot Portfolio desktop.png",
-        "technologies": ["Ruby on Rails", "css", "JavaScript", "Codekit", "Github", "Bootstrap", "Terminal", "Codepen"],
-        "liveLink": "See live",
-        "sourceLink": "See source"
-    }, {
-        "id": 6,
-        "name": "Project 6",
-        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium consequatur eaque animi magni eum accusantium earum iste consequuntur illo maiores, molestiae ad quam amet vero, repudiandae similique nostrum porro doloribus modi natus et id ut voluptates odit. Consectetur voluptates minus sed, voluptatibus, cumque obcaecati vel veniam dicta vitae temporibus consequuntur?",
-        "image":"./Images/Snapshoot Portfolio desktop.png",
-        "technologies": ["Ruby on Rails", "css", "JavaScript", "Codekit", "Github", "Bootstrap", "Terminal", "Codepen"],
-        "liveLink": "See live",
-        "sourceLink": "See source"
-    }
-]
+const popUpArray = [
+  {
+    id: 1,
+    name: 'Project 1',
+    description:
+            'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium consequatur eaque animi magni eum accusantium earum iste consequuntur illo maiores, molestiae ad quam amet vero, repudiandae similique nostrum porro doloribus modi natus et id ut voluptates odit. Consectetur voluptates minus sed, voluptatibus, cumque obcaecati vel veniam dicta vitae temporibus consequuntur?',
+    image: './Images/Snapshoot Portfolio desktop.png',
+    technologies: ['Ruby on Rails', 'css', 'JavaScript', 'Codekit', 'Github', 'Bootstrap', 'Terminal', 'Codepen'],
+    liveLink: 'See live',
+    sourceLink: 'See source',
+  }, {
+    id: 2,
+    name: 'Project 2',
+    description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium consequatur eaque animi magni eum accusantium earum iste consequuntur illo maiores, molestiae ad quam amet vero, repudiandae similique nostrum porro doloribus modi natus et id ut voluptates odit. Consectetur voluptates minus sed, voluptatibus, cumque obcaecati vel veniam dicta vitae temporibus consequuntur?',
+    image: './Images/Snapshoot Portfolio desktop.png',
+    technologies: ['Ruby on Rails', 'css', 'JavaScript', 'Codekit', 'Github', 'Bootstrap', 'Terminal', 'Codepen'],
+    liveLink: 'See live',
+    sourceLink: 'See source',
+  }, {
+    id: 3,
+    name: 'Project 3',
+    description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium consequatur eaque animi magni eum accusantium earum iste consequuntur illo maiores, molestiae ad quam amet vero, repudiandae similique nostrum porro doloribus modi natus et id ut voluptates odit. Consectetur voluptates minus sed, voluptatibus, cumque obcaecati vel veniam dicta vitae temporibus consequuntur?',
+    image: './Images/Snapshoot Portfolio desktop.png',
+    technologies: ['Ruby on Rails', 'css', 'JavaScript', 'Codekit', 'Github', 'Bootstrap', 'Terminal', 'Codepen'],
+    liveLink: 'See live',
+    sourceLink: 'See source',
+  }, {
+    id: 4,
+    name: 'Project 4',
+    description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium consequatur eaque animi magni eum accusantium earum iste consequuntur illo maiores, molestiae ad quam amet vero, repudiandae similique nostrum porro doloribus modi natus et id ut voluptates odit. Consectetur voluptates minus sed, voluptatibus, cumque obcaecati vel veniam dicta vitae temporibus consequuntur?',
+    image: './Images/Snapshoot Portfolio desktop.png',
+    technologies: ['Ruby on Rails', 'css', 'JavaScript', 'Codekit', 'Github', 'Bootstrap', 'Terminal', 'Codepen'],
+    liveLink: 'See live',
+    sourceLink: 'See source',
+  }, {
+    id: 5,
+    name: 'Project 5',
+    description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium consequatur eaque animi magni eum accusantium earum iste consequuntur illo maiores, molestiae ad quam amet vero, repudiandae similique nostrum porro doloribus modi natus et id ut voluptates odit. Consectetur voluptates minus sed, voluptatibus, cumque obcaecati vel veniam dicta vitae temporibus consequuntur?',
+    image: './Images/Snapshoot Portfolio desktop.png',
+    technologies: ['Ruby on Rails', 'css', 'JavaScript', 'Codekit', 'Github', 'Bootstrap', 'Terminal', 'Codepen'],
+    liveLink: 'See live',
+    sourceLink: 'See source',
+  }, {
+    id: 6,
+    name: 'Project 6',
+    description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium consequatur eaque animi magni eum accusantium earum iste consequuntur illo maiores, molestiae ad quam amet vero, repudiandae similique nostrum porro doloribus modi natus et id ut voluptates odit. Consectetur voluptates minus sed, voluptatibus, cumque obcaecati vel veniam dicta vitae temporibus consequuntur?',
+    image: './Images/Snapshoot Portfolio desktop.png',
+    technologies: ['Ruby on Rails', 'css', 'JavaScript', 'Codekit', 'Github', 'Bootstrap', 'Terminal', 'Codepen'],
+    liveLink: 'See live',
+    sourceLink: 'See source',
+  },
+];
 
 function buildCard(inputs) {
   inputs.forEach((input) => {
-    const grid = document.createElement('div'); 
+    const grid = document.createElement('div');
     grid.classList.add('grid');
     grid.innerHTML = `
     <div class="grid1">
@@ -78,16 +78,16 @@ function buildCard(inputs) {
     </div>
     `;
     card.appendChild(grid);
-  });                    
+  });
 }
 
 function popUpCard(inputs) {
-    inputs.forEach((input) => {
-      const pop = document.createElement('div');
-      pop.classList.add('pop-container');
-      pop.classList.add('pop-hidden');
-      pop.id = `pop-${input.id}`
-      pop.innerHTML = `
+  inputs.forEach((input) => {
+    const pop = document.createElement('div');
+    pop.classList.add('pop-container');
+    pop.classList.add('pop-hidden');
+    pop.id = `pop-${input.id}`;
+    pop.innerHTML = `
       <div class="close-pop">
         <img src="./Images/Icon close.png" alt="close"  onclick="closePopUp('pop-${input.id}')">
       </div>
@@ -121,18 +121,10 @@ function popUpCard(inputs) {
         </p>
       </div>
       `;
-      document.body.appendChild(pop);
-    });                    
-  }
-
-// const pressed = document.querySelector('.project-btn');
-
-// pressed.addEventListener('click', () => {
-//     let hide = document.querySelector('.pop-hidden')
-//     hide.classList.remove();
-    
-// })
-
+    document.body.appendChild(pop);
+  });
+}
+/* eslint-disable */
 function showPopUp(button) {
     const show = document.getElementById(button.dataset.target);
     show.classList.remove('pop-hidden');
@@ -141,7 +133,6 @@ function showPopUp(button) {
     overlay.id = '_overlay';
     document.body.appendChild(overlay);
     overlay.style.display = 'block';
-    // body.classList = 'scroll-hidden';
 }
 
 function closePopUp(closeId) {
@@ -151,7 +142,6 @@ function closePopUp(closeId) {
     let closePop = document.querySelector('#_overlay');
     closePop.remove();
 }
-
-
+    /* es-lint enable */
 buildCard(popUpArray);
 popUpCard(popUpArray);
