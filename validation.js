@@ -27,10 +27,9 @@ function saveInfo() {
 }
 
 userName.addEventListener('input', saveInfo);
-  email.addEventListener('input', saveInfo);
-  
+email.addEventListener('input', saveInfo);
 
-  const userInfo = localStorage.getItem('userInfo');
+const userInfo = localStorage.getItem('userInfo');
 
-  userName.value = JSON.parse(userInfo)?.username?JSON.parse(userInfo).username:'';
-  email.value = JSON.parse(userInfo)?.email?JSON.parse(userInfo).email:'';
+userName.value = JSON.parse(userInfo)?.username ? JSON.parse(userInfo).username : '';
+email.value = JSON.parse(userInfo)?.email ? JSON.parse(userInfo).email : '';
