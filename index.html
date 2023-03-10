@@ -16,9 +16,9 @@
     <script src="https://kit.fontawesome.com/6d267a36ba.js" crossorigin="anonymous"></script>
     <title>Yegon's Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="portfolio.html">
 </head>
 <body>
+    <div id="overlay" class="overlay"></div>
     <!-- Main Portfolio -->
     <section class="main">
             <nav>
@@ -38,7 +38,7 @@
                     </div>
                     <hr>
                 </div>
-            </nav>   
+            </nav>  
             <div class="body">
                 <nav>
                 <br>
@@ -75,8 +75,8 @@
                 </div>
             </div>
     </section>
-
-    <section>
+    <!-- Work Section -->
+    <section> 
         <div class="header">
             <h1>My Recent Works</h1>
         </div>
@@ -85,108 +85,6 @@
             <hr>
         </div>
         <div class="page-1">
-            <div class="grid">
-                <div class="grid1"></div>
-                <div class="grid2">
-                    <br>
-                    <h2>Multi-Post Stories <br> Gain+Glory</h2>
-                    <br>
-                    <ul>
-                        <li>Ruby on rails</li>
-                        <li>css</li>
-                        <li>Javascript</li>
-                        <li>html</li>
-                    </ul>
-                    <br>
-                    <button>See Project</button>
-                    <br>
-                </div>
-                </div>
-                <div class="grid">
-                <div class="grid1"></div>
-                <div class="grid2">
-                    <br>
-                    <h2>Multi-Post Stories <br> Gain+Glory</h2>
-                    <br>
-                    <ul>
-                        <li>Ruby on rails</li>
-                        <li>css</li>
-                        <li>Javascript</li>
-                        <li>html</li>
-                    </ul>
-                    <br>
-                    <button>See Project</button>
-                    <br>
-                </div>
-                </div>
-                <div class="grid">
-                    <div class="grid1"></div>
-                    <div class="grid2">
-                         <br>
-                        <h2>Multi-Post Stories <br> Gain+Glory</h2>
-                        <br>
-                        <ul>
-                            <li>Ruby on rails</li>
-                            <li>css</li>
-                            <li>Javascript</li>
-                            <li>html</li>
-                        </ul>
-                        <br>
-                        <button>See Project</button>
-                        <br>
-                    </div>
-                </div>
-                <div class="grid">
-                    <div class="grid1"></div>
-                    <div class="grid2">
-                        <br>
-                        <h2>Multi-Post Stories <br> Gain+Glory</h2>
-                        <br>
-                        <ul>
-                            <li>Ruby on rails</li>
-                            <li>css</li>
-                            <li>Javascript</li>
-                            <li>html</li>
-                        </ul>
-                        <br>
-                        <button>See Project</button>
-                        <br>
-                    </div>
-                </div>
-                <div class="grid">
-                    <div class="grid1"></div>
-                    <div class="grid2">
-                        <br>
-                        <h2>Multi-Post Stories <br> Gain+Glory</h2>
-                        <br>
-                         <ul>
-                            <li>Ruby on rails</li>
-                            <li>css</li>
-                            <li>Javascript</li>
-                            <li>html</li>
-                        </ul>
-                        <br>
-                        <button>See Project</button>
-                        <br>
-                    </div>
-                </div>
-                <div class="grid">
-                    <div class="grid1"></div>
-                    <div class="grid2">
-                        <br>
-                        <h2>Multi-Post Stories <br> Gain+Glory</h2>
-                        <br>
-                         <ul>
-                            <li>Ruby on rails</li>
-                            <li>css</li>
-                            <li>Javascript</li>
-                            <li>html</li>
-                        </ul>
-                        <br>
-                        <button>See Project</button>
-                        <br>
-                    </div>
-                </div>
         </div>
     </section>
 
@@ -256,11 +154,12 @@
             <br>
             <div class="form">
                 <br>
-                <form action="https://formspree.io/f/xrgvqloo" method="POST">
-                    <input type="text" name="text" maxlength="30" placeholder="Full name" required>
-                    <input type="email" name="email" placeholder="Email adress" required>
+                <form action="https://formspree.io/f/xrgvqloo" method="POST" id="contact-form">
+                    <input id="username" type="text" name="text" maxlength="30" placeholder="Full name" required>
+                    <input id="email" type="email" name="email" placeholder="Email adress" required>
                     <textarea maxlength="500" name="message" placeholder="Enter text here" required></textarea>
                     <button type="submit" name="submit">Get in touch</button>
+                    <div id="error-msg" class="hide"></div>
                     <ul>
                         <li><a href=""><img src="./Images/twitter.png" alt="twitter"></a></li>
                         <li><a href=""><img src="./Images/Linkedin icon.png" alt="Linkedin"></a></li>
@@ -281,9 +180,12 @@
                 <li><a href=""><img src="./Images/github.png" alt="github"></a></li>
                 <li><a href=""><img src="./Images/angellist.png" alt="angellist"></a></li>
             </ul>
+
         </div>
     </footer>
 
     <script src="mobile.js"></script>
+    <script src="details.js"></script>
+    <script src="validation.js"></script>
 </body>
 </html>
