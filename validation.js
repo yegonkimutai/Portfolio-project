@@ -16,9 +16,9 @@ form.addEventListener('submit', (event) => {
   }
 
   if (errArray.length > 0) {
-    event.preventDefault();
     error.innerHTML = errArray.join(', ');
   }
+  event.preventDefault();
 });
 
 function saveInfo() {
