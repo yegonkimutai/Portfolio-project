@@ -66,7 +66,7 @@ After you're finished please remove all the comments and instructions!
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href=>JavaScript</a></li>
+    <li><a href="">JavaScript</a></li>
   </ul>
 </details>
 

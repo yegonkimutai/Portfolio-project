@@ -142,6 +142,6 @@ function closePopUp(closeId) {
     let closePop = document.querySelector('#_overlay');
     closePop.remove();
 }
-    /* eslint-enable */
+    /* es-lint enable */
 buildCard(popUpArray);
 popUpCard(popUpArray);

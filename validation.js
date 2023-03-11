@@ -14,7 +14,7 @@ form.addEventListener('submit', (event) => {
     form.submit();
     form.reset();
   }
-
+  
   if (errArray.length > 0) {
     error.innerHTML = errArray.join(', ');
   }
@@ -33,3 +33,5 @@ const userInfo = localStorage.getItem('userInfo');
 
 userName.value = JSON.parse(userInfo)?.username ? JSON.parse(userInfo).username : '';
 email.value = JSON.parse(userInfo)?.email ? JSON.parse(userInfo).email : '';
+  }
+
