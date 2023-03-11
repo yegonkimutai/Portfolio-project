@@ -1,7 +1,7 @@
 const form = document.getElementById('contact-form');
 const userName = document.getElementById('username');
 const email = document.getElementById('email');
-const text = document.getElementById('message')
+const text = document.getElementById('message');
 const error = document.getElementById('error-msg');
 
 form.addEventListener('submit', (event) => {
@@ -23,7 +23,12 @@ form.addEventListener('submit', (event) => {
 });
 
 function saveInfo() {
-  const userInfo = JSON.stringify({ username: userName.value, email: email.value, text:text.value });
+  const userInfo = JSON.stringify({
+    username: userName.value,
+    email: email.value,
+    text:
+     text.value,
+  });
   localStorage.setItem('userInfo', userInfo);
 }
 
