@@ -14,11 +14,11 @@ form.addEventListener('submit', (event) => {
     form.submit();
     form.reset();
   }
-
+  
   if (errArray.length > 0) {
-    event.preventDefault();
     error.innerHTML = errArray.join(', ');
   }
+  event.preventDefault();
 });
 
 function saveInfo() {
@@ -33,3 +33,5 @@ const userInfo = localStorage.getItem('userInfo');
 
 userName.value = JSON.parse(userInfo)?.username ? JSON.parse(userInfo).username : '';
 email.value = JSON.parse(userInfo)?.email ? JSON.parse(userInfo).email : '';
+  }
+
