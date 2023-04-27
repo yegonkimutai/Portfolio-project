@@ -24,6 +24,9 @@
   font-weight: 600;
   font-size: 15px;
   line-height: 20px;
+}
+
+.menu a {
   color: #344563;
 }
 
@@ -208,8 +211,8 @@
   font-size: 20px;
   line-height: 32px;
   margin-top: 30px;
-  width: 800px;
-  margin-left: 25%;
+  width: 80%;
+  margin-left: 10%;
 }
 
 .abt-main button {
@@ -639,7 +642,38 @@ input:hover {
   display: none;
 }
 
-@media (max-width: 770px) {
+@media (max-width: 1000px) {
+  .page-1 {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+      'grid grid'
+      'grid grid'
+      'grid grid';
+  }
+
+  .abt-card {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      'card card'
+      'card card';
+  }
+
+  .contact-main {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 1fr;
+    grid-template-areas: 'description form';
+    justify-content: center;
+    margin: 10px;
+    height: 100%;
+  }
+}
+
+@media (max-width: 500px) {
   .h-menu {
     display: block;
     margin-top: 20px;
@@ -675,7 +709,7 @@ input:hover {
   }
 
   .body p {
-    width: 95%;
+    width: 90%;
     margin-left: 10px;
   }
 
@@ -778,7 +812,7 @@ input:hover {
 
   .page-1 {
     display: grid;
-    grid-template-columns: 100%;
+    grid-template-columns: 95%;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas:
       'grid'
@@ -787,7 +821,6 @@ input:hover {
       'grid'
       'grid'
       'grid';
-    margin: 10px;
   }
 
   .grid {
@@ -807,7 +840,7 @@ input:hover {
   }
 
   .abt-main p {
-    width: 95%;
+    width: 90%;
     margin-left: 10px;
   }
 
@@ -823,14 +856,16 @@ input:hover {
 
   .contact-main {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 80%;
     grid-template-rows: 0.7fr 1fr;
     grid-template-areas:
       'description'
       'form';
     justify-content: center;
-    margin: 10px;
     height: 100%;
+    background-image: url(./Images/illustration-contact-form.png);
+    background-repeat: no-repeat;
+    background-position: right 100%;
   }
 
   .contact {
@@ -846,9 +881,7 @@ input:hover {
   }
 
   .form {
-    background-image: url(./Images/illustration-contact-form.png);
-    background-repeat: no-repeat;
-    background-position: right 100%;
+    background-image: none;
   }
 
   .contact input {
