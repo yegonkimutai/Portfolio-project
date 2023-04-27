@@ -26,7 +26,7 @@
   line-height: 20px;
 }
 
-.menu a{
+.menu a {
   color: #344563;
 }
 
@@ -642,7 +642,7 @@ input:hover {
   display: none;
 }
 
-@media(max-width: 1000px) {
+@media (max-width: 1000px) {
   .page-1 {
     display: grid;
     grid-template-columns: 45% 45%;
@@ -666,8 +666,7 @@ input:hover {
     display: grid;
     grid-template-columns: 45% 45%;
     grid-template-rows: 1fr;
-    grid-template-areas:
-      'description form';
+    grid-template-areas: 'description form';
     justify-content: center;
     margin: 10px;
     height: 100%;
