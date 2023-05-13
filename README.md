@@ -1,30 +1,5 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -33,6 +8,7 @@ After you're finished please remove all the comments and instructions!
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🎥 Video Explanation](#video-explanation)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
@@ -79,6 +55,9 @@ After you're finished please remove all the comments and instructions!
 - **[Use different fonts and images to decorate the pages]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🎥 Video Explanation <a name="video-explanation"></a>
+Click <a href="https://www.loom.com/share/148893fb7b5643bd9be89cd812d92d4f">here</a> for the video explanation about how the app works
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
